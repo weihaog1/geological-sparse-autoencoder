@@ -38,7 +38,6 @@ macrostrat_cache/
 data/
 
 # Validation results (can regenerate)
-validation_results/
 
 # Logs
 *.log

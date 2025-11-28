@@ -1,0 +1,25 @@
+{
+  "timestamp": "20251114_181601",
+  "checkpoint": "models/checkpoints/autoencoder_continuous_20251114_161551.pt",
+  "grid_size": [
+    32,
+    32
+  ],
+  "sampling_strategy": "drilling",
+  "num_sampled_points": 141,
+  "coverage_percent": 13.76953125,
+  "metrics": {
+    "rmse": 94.74520903389786,
+    "mae": 94.74072904908098,
+    "r2": 0.0,
+    "relative_error_pct": 94.74072810167371
+  },
+  "resistivity_stats": {
+    "ground_truth_min": 100.0,
+    "ground_truth_max": 100.0,
+    "ground_truth_mean": 100.0,
+    "prediction_min": 2.733738660812378,
+    "prediction_max": 8.533535957336426,
+    "prediction_mean": 5.259271144866943
+  }
+}

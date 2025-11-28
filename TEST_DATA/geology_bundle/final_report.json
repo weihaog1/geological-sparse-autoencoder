@@ -1,0 +1,107 @@
+{
+    "audit_summary": {
+        "file_audited": "geology_bundle.gpkg",
+        "tool_version": "3.0",
+        "audit_date": "2025-10-28T21:53:09.195285",
+        "target_crs": "EPSG:6933",
+        "thresholds_used": {
+            "sliver_hectares": 1,
+            "overlap_percent_union": 5,
+            "internal_gap_ratio": 0.005,
+            "schema_completeness_percent": 0.95
+        },
+        "total_execution_time_seconds": 0.71,
+        "overall_decision": "Approved",
+        "decision_notes": "Data quality is high. All automated checks passed."
+    },
+    "quality_checks": {
+        "sliver_polygons": {
+            "threshold_hectares": 1,
+            "slivers_found": 0,
+            "status": "pass"
+        },
+        "excessive_overlaps": {
+            "threshold_percent_union_area": 5,
+            "overlaps_found": 0,
+            "status": "pass",
+            "pairs_checked": 44
+        },
+        "internal_gap_analysis": {
+            "total_internal_gap_area_sq_m": 0.0,
+            "internal_gap_to_total_footprint_ratio": 0.0,
+            "status": "pass",
+            "threshold": 0.005
+        },
+        "schema_completeness": {
+            "completeness_check": {
+                "formation_name": "100.00%",
+                "lith_class": "100.00%",
+                "age_period": "100.00%",
+                "age_epoch": "96.67%"
+            },
+            "status": "pass",
+            "threshold": 0.95
+        }
+    },
+    "derived_metrics": {
+        "confidence_score_summary": {
+            "status": "pass",
+            "summary_statistics": {
+                "count": 30.0,
+                "mean": 0.8344,
+                "std": 0.1101,
+                "min": 0.5333,
+                "25%": 0.7646,
+                "50%": 0.8572,
+                "75%": 0.925,
+                "max": 0.9931
+            },
+            "weights_used": {
+                "attr": 0.5,
+                "geom": 0.3,
+                "fault_prox": 0.2
+            },
+            "lambda_decay_m": 1000.0
+        }
+    },
+    "geological_analysis": {
+        "fault_continuity": {
+            "fault_count": 103,
+            "length_stats_meters": {
+                "count": 103.0,
+                "mean": 3869.07,
+                "std": 4887.59,
+                "min": 8.12,
+                "25%": 957.32,
+                "50%": 2427.92,
+                "75%": 4771.56,
+                "max": 35868.96
+            },
+            "top_5_intersected_formations": {
+                "Bond Formation": 48,
+                "Patoka and Shelburn Formations": 44,
+                "Alluvium": 27,
+                "water": 25,
+                "Shelburn-Patoka Formations undivided": 20
+            },
+            "fault_density_km_per_km2_by_formation": {
+                "Alluvium": 0.0147,
+                "Bond Formation": 0.2528,
+                "Mattoon Formation": 0.0043,
+                "Patoka and Shelburn Formations": 0.0336,
+                "Shelburn-Patoka Formations undivided": 0.0039,
+                "Sturgis Formation": 0.0108,
+                "water": 0.0493
+            },
+            "dominant_fault_strike_bin_by_formation": {
+                "Patoka and Shelburn Formations": "30-60",
+                "Shelburn-Patoka Formations undivided": "30-60",
+                "Bond Formation": "180-210",
+                "Mattoon Formation": "180-210",
+                "water": "30-60",
+                "Alluvium": "30-60",
+                "Sturgis Formation": "180-210"
+            }
+        }
+    }
+}

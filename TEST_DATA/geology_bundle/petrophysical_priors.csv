@@ -1,0 +1,5 @@
+petrophysics_prior_id,lith_class,rho_min_gcc,rho_max_gcc,chi_min_SI,chi_max_SI,vp_min_kmps,vp_max_kmps,vs_min_kmps,vs_max_kmps,phi_prior_min,phi_prior_max
+lith:carbonate:v1,carbonate,,,,,,,,,,
+lith:coal:v1,coal,,,,,,,,,,
+lith:sandstone:v1,sandstone,,,,,,,,,,
+lith:shale:v1,shale,,,,,,,,,,

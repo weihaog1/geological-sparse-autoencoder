@@ -1,0 +1,5 @@
+petrophysics_prior_id,lith_class,rho_min_gcc,rho_max_gcc,resistivity_min_ohm_m,resistivity_max_ohm_m,chi_min_SI,chi_max_SI,vp_min_kmps,vp_max_kmps,vs_min_kmps,vs_max_kmps,phi_prior_min,phi_prior_max
+lith:carbonate:v1,carbonate,2.6,2.8,100,10000,1e-06,5e-05,3.5,6.5,2.0,3.5,0.05,0.25
+lith:coal:v1,coal,1.2,1.5,10,100,1e-05,0.0001,1.5,2.5,0.8,1.5,0.15,0.35
+lith:sandstone:v1,sandstone,2.2,2.7,50,500,1e-05,0.0005,2.5,4.5,1.5,2.5,0.15,0.35
+lith:shale:v1,shale,2.0,2.6,1,50,1e-05,0.0003,2.0,3.5,1.0,2.0,0.05,0.15

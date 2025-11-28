@@ -1,0 +1,49 @@
+{
+  "train_losses": [
+    28.072771708170574,
+    28.22117805480957,
+    27.71081479390462,
+    27.901135126749676,
+    27.70437208811442
+  ],
+  "val_losses": [
+    31.359106063842773,
+    31.442352294921875,
+    31.630273818969727,
+    31.829559326171875,
+    31.945354461669922
+  ],
+  "config": {
+    "samples": 50,
+    "grid_height": 32,
+    "grid_width": 64,
+    "basins": [
+      "Permian_Delaware"
+    ],
+    "formations": null,
+    "property": "resistivity",
+    "sparse_rate": 0.05,
+    "offline": false,
+    "cross_section": false,
+    "epochs": 5,
+    "batch_size": 8,
+    "lr": 0.0001,
+    "weight_decay": 0.01,
+    "val_split": 0.1,
+    "depths": [
+      3,
+      3,
+      9,
+      3
+    ],
+    "dims": [
+      96,
+      192,
+      384,
+      768
+    ],
+    "checkpoint_dir": "models/checkpoints",
+    "log_interval": 10,
+    "save_interval": 50
+  }
+}
